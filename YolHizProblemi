@@ -1,0 +1,13 @@
+mesafe = int(input("Yaklaşık mesafeyi giriniz: "))
+hız = int(input("Ortalama hızı giriniz: "))
+
+süre = mesafe/hız
+
+if süre<1:
+    print("Yaklaşık yarım saatte varacaksınız")
+
+elif süre==float(süre):
+    print("Yaklaşık ", int(süre), "buçuk", "saatte varacaksınız")
+
+else:
+    print("Yaklaşık ", int(süre), "saatte varacaksınız")
